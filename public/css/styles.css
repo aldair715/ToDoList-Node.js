@@ -1,0 +1,121 @@
+html {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+/*ESTILOS PARA EL FORMULARIO*/
+h1 {
+  font-size: 2rem;
+}
+form {
+  margin-bottom: 2rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+  border: thin solid #ddd;
+}
+/*ESTILOS PARA LA TABLA DEL CRUD*/
+a,
+button {
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3 ease-out;
+}
+button {
+  border: 0;
+  outline: 0;
+}
+button:hover,
+a:hover {
+  opacity: 0.85;
+  background-color: #fff;
+  transition: all 0.35s;
+  color: #333;
+  border: 0.1px solid #333;
+}
+
+.task-list {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+.task-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 20px;
+  position: relative;
+}
+.task-list li.completed {
+  background-color: #ccc;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.task-list li.completed button,
+.task-list li.completed a {
+  background-color: #666;
+  color: #ccc;
+  transition: none;
+  border: #333;
+  opacity: unset;
+}
+.task-list li.uncompleted {
+  background-color: #717070;
+}
+.back-button {
+  background-color: #666;
+  color: #fff;
+}
+.add-button {
+  background-color: #1e99ec;
+  color: #fff;
+}
+.edit-button {
+  background-color: #03565b;
+  color: #fff;
+}
+.completed-button {
+  background-color: #0c9344;
+  color: #fff;
+}
+
+.uncompleted-button {
+  background-color: rgb(73, 25, 25);
+  color: #fff;
+}
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.text-right {
+  text-align: right;
+}

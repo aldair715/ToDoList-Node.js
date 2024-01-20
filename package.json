@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "sweetalert2": "^11.10.3"
+  },
+  "name": "09_expressmvc",
+  "description": "Esta aplicacion esta desarrollado en Node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldair715/ToDoList-Node.js.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldair715/ToDoList-Node.js/issues"
+  },
+  "homepage": "https://github.com/aldair715/ToDoList-Node.js#readme"
+}
